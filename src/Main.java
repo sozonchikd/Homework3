@@ -22,7 +22,7 @@ float sugarWeight = 2.786f;
 System.out.println(sugarWeight);
 short voltage = 220;
 System.out.println(voltage);
-boolean nominalVoltage = voltage > 310;
+boolean nominalVoltage = voltage > 300;
 System.out.println(nominalVoltage);
 short tire = 569;
 System.out.println(tire);
