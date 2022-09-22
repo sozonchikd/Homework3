@@ -33,6 +33,12 @@ System.out.println(metalWeight);
 byte automobile = 67;
 System.out.println(automobile);
 
+        System.out.println("Задача 3");
+byte LyudmilaPavlovna = 23;
+byte AnnaSergeyevna = 27;
+byte YekaterinaAndreyevna = 30;
+short totalPaper = 480;
+System.out.println("На каждого ученика рассчитано " + (totalPaper / (LyudmilaPavlovna + AnnaSergeyevna + YekaterinaAndreyevna)) + " листов бумаги");
 
 
 
