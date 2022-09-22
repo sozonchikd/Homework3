@@ -40,6 +40,16 @@ byte YekaterinaAndreyevna = 30;
 short totalPaper = 480;
 System.out.println("На каждого ученика рассчитано " + (totalPaper / (LyudmilaPavlovna + AnnaSergeyevna + YekaterinaAndreyevna)) + " листов бумаги");
 
+System.out.println("Задача 4");
+byte productivity2Minutes = 16;
+int productivity1Minutes = productivity2Minutes / 2;
+System.out.println("За 20 минут машина произвела бутылок " + (productivity1Minutes * 20) + " штук");
+int day = 24 * 60 * productivity1Minutes;
+System.out.println("За сутки машина произвела бутылок " + day + " штук");
+int day3 = day * 3;
+System.out.println("За 3 дня машина произвела бутылок " + day3 + " штук");
+int month1 = day * 30;
+System.out.println("За 1 месяц машина произвела бутылок " + month1 + " штук");
 
 
 
