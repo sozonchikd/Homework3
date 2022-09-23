@@ -71,7 +71,18 @@ int mixedBlenderGram = (banana1 * totalRecipeBanana) + (milk100Ml * 2) + (iceCre
 float mixedBlenderKG = mixedBlenderGram / 1000f;
 System.out.println("Вес спорт-завтрака составляет " + mixedBlenderGram + " грамм или " + mixedBlenderKG + " килограмма");
 
+System.out.println("Задача 7");
+byte totalLoseWeightKg = 7;
+short lose1WeightGram = 250;
+short lose2WeightGram = 500;
+int totalLoseWeightGram = totalLoseWeightKg * 1000;
+int loseWeightDay250 = totalLoseWeightGram / lose1WeightGram;
+System.out.println(loseWeightDay250 + " дней уйдёт на похудение, если спортсмен будет терять каждый день по 250 грамм");
+int loseWeightDay500 = totalLoseWeightGram / lose2WeightGram;
+System.out.println(loseWeightDay500 + " дней уйдёт на похудение, если спортсмен будет терять каждый день по 500 грамм");
+System.out.println("Может потребоваться в среднем " + ((loseWeightDay250 + loseWeightDay500) / 2) + " день чтобы добиться результата похудения");
 
+System.out.println("Задача 8");
 
 
 
