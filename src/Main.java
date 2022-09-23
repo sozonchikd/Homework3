@@ -51,6 +51,33 @@ System.out.println("За 3 дня машина произвела бутылок
 int month1 = day * 30;
 System.out.println("За 1 месяц машина произвела бутылок " + month1 + " штук");
 
+System.out.println("Задача 5");
+byte totalPaint = 120;
+byte whiteOneClass = 2;
+byte brownOneClass = 4;
+int totalClasses = totalPaint / (whiteOneClass + brownOneClass);
+System.out.println("В школе, где " + totalClasses + " классов, нужно " + (totalClasses * whiteOneClass) + " банок белой краски и " + (totalClasses * brownOneClass) + " банок коричневой краски." );
+
+System.out.println("Задача 6");
+byte banana1 = 80;
+byte milk100Ml = 105;
+byte iceCream1 = 100;
+byte eggsRaw1 = 70;
+byte totalRecipeBanana = 5;
+short totalRecipeMilkMl = 200;
+byte totalRecipeIceCream = 2;
+byte totalRecipeEggsRaw = 4;
+int mixedBlenderGram = (banana1 * totalRecipeBanana) + (milk100Ml * 2) + (iceCream1 * totalRecipeIceCream) + (eggsRaw1 * totalRecipeEggsRaw);
+float mixedBlenderKG = mixedBlenderGram / 1000f;
+System.out.println("Вес спорт-завтрака составляет " + mixedBlenderGram + " грамм или " + mixedBlenderKG + " килограмма");
+
+
+
+
+
+
+
+
 
 
 
