@@ -83,7 +83,18 @@ System.out.println(loseWeightDay500 + " дней уйдёт на похуден�
 System.out.println("Может потребоваться в среднем " + ((loseWeightDay250 + loseWeightDay500) / 2) + " день чтобы добиться результата похудения");
 
 System.out.println("Задача 8");
-
+int mashaSalary = 67760;
+int denisSalary = 83690;
+int kristinaSalary = 76230;
+int mashaSalaryPromotion = mashaSalary / 10 + mashaSalary;
+int mashaSalaryYearDifference = mashaSalaryPromotion * 12 - mashaSalary * 12;
+System.out.println("Маша теперь получает " + mashaSalaryPromotion + " рублей. Годовой доход вырос на " + mashaSalaryYearDifference + " рублей");
+int denisSalaryPromotion = denisSalary / 10 + denisSalary;
+int denisSalaryYearDifference = denisSalaryPromotion * 12 - denisSalary * 12;
+System.out.println("Денис теперь получает " + denisSalaryPromotion + " рублей. Годовой доход вырос на " + denisSalaryYearDifference + " рублей");
+int kristinaSalaryPromotion = kristinaSalary / 10 + kristinaSalary;
+int kristinaSalaryYearDifference = kristinaSalaryPromotion * 12 - kristinaSalary * 12;
+System.out.println("Кристина теперь получает " + kristinaSalaryPromotion + " рубля. Годовой доход вырос на " + kristinaSalaryYearDifference + " рублей");
 
 
 
